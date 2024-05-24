@@ -1,0 +1,80 @@
+body {
+    background-color: beige;
+    font-family: cursive, "Lucida handwriting";
+}
+
+h1 {
+    font-weight: 700;
+    background-color: salmon;
+    text-align: center;
+    border-radius: 5px;
+    border: solid brown;
+}
+
+li {
+    text-decoration: dashed;
+    text-shadow: 100cm;
+    padding: 8px;
+    font-weight: 700;
+}
+
+.subtitles {
+    color: brown;
+}
+
+.homepage_button{
+        float: left;
+        height: 50px;
+        width: 50px;
+        padding-left: 8px;
+        padding-top:2px;
+}
+
+#main_content{
+    text-align: center;
+    border-radius: 5px;
+    border: solid brown;
+    width: 200px;
+    border-radius: 5px;
+    background-color: salmon;
+}
+#main_list{
+    border: 2px;
+}
+
+.main_photos{   
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto; 
+    border: solid brown;
+}
+
+.main_photos img {
+    display: block;
+}
+
+.ingredients_and_steps {
+    display: flex;
+    justify-content: space-between; /* Space between the elements */
+}
+
+.ingredients {
+    display: flex;
+    flex-direction: column; /* Ensure the content inside is arranged vertically */
+    max-width: 20%;
+}
+
+.steps {
+    display: flex;
+    flex-direction: column; /* Ensure the content inside is arranged vertically */
+    max-width: 80%;
+}
+
+.arrow-right {
+    width: 0; 
+    height: 0; 
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent; 
+    border-left: 20px solid brown;
+    margin-top: 12%;
+}
